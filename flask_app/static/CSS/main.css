@@ -1,5 +1,5 @@
 body {
-    background-image: url('../Images/NSBColors.png'); /* Path to your background image */
+    background-image: url('../Images/brightertoo.png'); /* Path to your background image */
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,4 +44,36 @@ body {
     font-weight: 550;
     padding-bottom: 2px;
     padding-left: 20px;
+  }
+
+
+h4 a{
+    text-decoration: none;
+  }
+  .spark {
+    position: absolute;
+    width: 30px;
+    height: 8px;
+    border-radius: 3px;
+    background-color: white;
+    transform: none;
+    animation: sparkAnim 0.5s ease-out forwards;
+  }
+  
+  @keyframes sparkAnim {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.5);
+    }
+  }
+
+  button{
+    background-color: #000000;
+    border-color: linear-gradient(to right bottom, #ff0000, #ff0041, #ff006f, #ec009c, #c500c4, #9d50e5, #6971f8, #0088ff, #00b4ff, #00d7ff, #00f0a8, #16ff00);;
+    border-radius: 20px;
+    border-width: 3px;
   }

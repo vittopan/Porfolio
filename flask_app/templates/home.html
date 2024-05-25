@@ -1,38 +1,20 @@
 {%extends 'index.html'%}
 {%block content%}
-<div class="content">
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col feedBox feedBoxSwell">
-                    <h1>Hello World.</h1>
-                </div>
-            </div>
+<div class="container text-white d-flex flex-column justify-content-center align-items-center vh-100" style="overflow: auto;">
+    <div class="row">
+        <div class="col-12">
+            <img src="../static/Images/Vito.png" alt="helloWorld?">
         </div>
-    </section>
-</div>
-<div class="content">
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col feedBox feedBoxSwell">
-                    <h1>Hello World.</h1>
-                </div>
-            </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-align-center justify-content-center">
+            <h3>welcome to my portfolio</h3>
         </div>
-    </section>
-</div>
-<div class="content">
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col feedBox feedBoxSwell">
-                    <h1>Hello World.</h1>
-                </div>
-            </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h4>check out some of my <em><a href="{{url_for('projects')}}">projects ></a></em></h4>
         </div>
-    </section>
+    </div>
 </div>
-
-
 {%endblock content%}
